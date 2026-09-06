@@ -1,0 +1,173 @@
+// ============================================================================
+// THE BUJJAMMA ARCHIVE — CURATED MUSEUM ROOMS
+// ============================================================================
+
+import { MuseumRoomData } from '../types';
+
+export const museumRooms: MuseumRoomData[] = [
+  {
+    id: 'her',
+    name: 'HER',
+    title: 'The Prettiest Girl in the World',
+    description: 'A sanctuary dedicated to her beauty, her expressions, and that radiant smile.',
+    iconName: 'Sparkles',
+    items: [
+      {
+        id: 'her-1',
+        title: 'Her Radiance',
+        date: 'Timeless',
+        caption: 'That smile that turns the hardest day into peace.',
+        type: 'image',
+        src: '/media/photos/her/photo-1.jpeg',
+      },
+      {
+        id: 'her-2',
+        title: 'Pure Beauty',
+        date: 'Sweetest Smile',
+        caption: 'The cutest girl in the entire world.',
+        type: 'image',
+        src: '/media/photos/her/photo-2.jpeg',
+      },
+      {
+        id: 'her-3',
+        title: 'Candid Grace',
+        date: 'Natural Glow',
+        caption: 'Looking completely effortless and breathtaking.',
+        type: 'image',
+        src: '/media/photos/her/photo-15.jpg',
+      },
+      {
+        id: 'her-4',
+        title: 'That Special Look',
+        date: 'Forever Favorite',
+        caption: 'Eyes that melt my heart every single time.',
+        type: 'image',
+        src: '/media/photos/her/photo-6.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'us',
+    name: 'US',
+    title: 'Two Hearts Against Distance',
+    description: 'The journey of us holding hands across every single mile.',
+    iconName: 'Heart',
+    items: [
+      {
+        id: 'us-1',
+        title: 'Side by Side',
+        date: 'August 12, 2025 onwards',
+        caption: 'The foundation of something built to last forever.',
+        type: 'image',
+        src: '/media/photos/us/photo-3.jpeg',
+      },
+      {
+        id: 'us-2',
+        title: 'When Distance Disappeared',
+        date: 'Our Real Moment',
+        caption: 'Standing together in reality, making memories of a lifetime.',
+        type: 'image',
+        src: '/media/photos/us/photo-5.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'calls',
+    name: 'FIRST VIDEO CALL',
+    title: 'Our First Video Call',
+    description: 'The very first time seeing each other on screen — nervous smiles and endless butterflies.',
+    iconName: 'PhoneCall',
+    items: [
+      {
+        id: 'fvc-1',
+        title: 'Our First Video Call',
+        date: 'The Beginning',
+        caption: 'The unforgettable screenshot of our very first video call together.',
+        type: 'image',
+        src: '/media/photos/calls/photo-4.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'chaos',
+    name: 'CHAOS',
+    title: 'The Bullying & Goofy Fights',
+    description: 'Where Bujjamma unleashes her chaos and bullies me with love.',
+    iconName: 'Smile',
+    items: [
+      {
+        id: 'chaos-1',
+        title: 'Goofy Moments #1',
+        date: 'Daily Chaos',
+        caption: 'Making funny faces and laughing till our stomachs hurt.',
+        type: 'image',
+        src: '/media/photos/chaos/photo-7.jpeg',
+      },
+      {
+        id: 'chaos-2',
+        title: 'Chaos Unleashed #2',
+        date: 'Pure Fun',
+        caption: 'Unfiltered happiness that only we get to share.',
+        type: 'image',
+        src: '/media/photos/chaos/photo-8.jpeg',
+      },
+      {
+        id: 'chaos-3',
+        title: 'Drama & Teasing #3',
+        date: 'Inside Jokes',
+        caption: 'Yelling at me, teasing me, but never leaving.',
+        type: 'image',
+        src: '/media/photos/chaos/photo-9.jpeg',
+      },
+      {
+        id: 'chaos-4',
+        title: 'The Silly Side #4',
+        date: 'Unmatched Energy',
+        caption: 'When both of us forget how old we are.',
+        type: 'image',
+        src: '/media/photos/chaos/photo-10.jpeg',
+      },
+      {
+        id: 'chaos-5',
+        title: 'Master Bully #5',
+        date: 'Bully Mode On',
+        caption: 'Her favorite hobby: teasing Kanna endlessly.',
+        type: 'image',
+        src: '/media/photos/chaos/photo-11.jpeg',
+      },
+      {
+        id: 'chaos-6',
+        title: 'Our Sweet Chaos #6',
+        date: 'Unbreakable',
+        caption: 'The real, unfiltered, imperfectly perfect us.',
+        type: 'image',
+        src: '/media/photos/chaos/photo-12.jpeg',
+      },
+    ],
+  },
+  {
+    id: 'little-things',
+    name: 'LITTLE THINGS',
+    title: 'The Everyday Magic',
+    description: 'The small, quiet habits and gestures that mean everything.',
+    iconName: 'Coffee',
+    items: [
+      {
+        id: 'little-1',
+        title: 'Daily Care #1',
+        date: 'Every Single Day',
+        caption: 'Checking in with pure love and concern.',
+        type: 'image',
+        src: '/media/photos/little-things/photo-13.jpeg',
+      },
+      {
+        id: 'little-2',
+        title: 'Sweet Reminders #2',
+        date: 'Always',
+        caption: 'Small moments that bring the biggest smile.',
+        type: 'image',
+        src: '/media/photos/little-things/photo-14.jpeg',
+      },
+    ],
+  },
+];

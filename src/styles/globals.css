@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #06070a;
+    color: #fefdfb;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #06070a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #06070a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(223, 183, 108, 0.2);
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(223, 183, 108, 0.4);
+  }
+}
+
+/* Hide scrollbar for tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Reduced motion accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
